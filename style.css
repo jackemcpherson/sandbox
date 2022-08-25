@@ -1,7 +1,17 @@
-main {
+body {
+    background-color: #202b38;
     display: block;
     text-align: center;
     font-family: sans-serif;
+}
+
+.main_section {
+    background-color: #161f27;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 60%;
 }
 
 footer {
