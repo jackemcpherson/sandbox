@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css">
+        <title>Registration Form </title>
+    </head>
+    <body>
+        <header>
+            <h1> Registration Form </h1>
+            <a href="index.html">Return to Homepage</a>
+        </header>
+        <hr />
+        <form>
+            <fieldset>
+                <label>Name: <input type="text" name="name" placeholder="Your full name..." required /></label>
+                <label>Email: <input type="email" name="email" placeholder="Your email address..." required /></label>
+                <label>Password: <input type="password" name="password" placeholder="Your account password" min="8" required /></label>
+            </fieldset>
+            <fieldset>
+                <label>How did you hear about our site? 
+                    <select>
+                        <option value="">(select one)</option>
+                        <option value="1">Twitter</option>
+                        <option value="2">YouTube</option>
+                    </select>
+                </label>
+            </fieldset>
+        </form>
+        <footer>
+            <p class="footer_credit">Designed by Jack McPherson in 2022.</p>
+        </footer>
+    </body>
+</html>
