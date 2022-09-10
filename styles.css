@@ -9,7 +9,10 @@ body {
 }
 
 header, main {
-    background-color: #161f27;
+    background: linear-gradient(
+        #202b38,
+        #161f27
+    );
     margin: 2em auto;
     border: 2px solid white;
     padding: 1em;
@@ -46,4 +49,8 @@ label {
     text-align: auto;
     padding-top: 10px;
     font-size: 16px;
+}
+
+.submit {
+    margin: 10px;
 }
