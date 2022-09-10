@@ -28,6 +28,10 @@ a {
     font-style: normal;
 }
 
+a:hover {
+    color: gray;
+}
+
 .profileImage {
     max-height: 150px;
     max-width: 150px;
